@@ -676,7 +676,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 865663345}
         m_TargetAssemblyTypeName: BackToMenu, Assembly-CSharp
-        m_MethodName: GoToMenu
+        m_MethodName: TornaAlMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -733,9 +733,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 865663340}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 606b2a0094f645f498457ae747cf8b34, type: 3}
+  m_Script: {fileID: 11500000, guid: b0042e6322b7faf41abf0d451a2a5cfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  creditsPanel: {fileID: 548447425}
+  menuPanel: {fileID: 1226241641}
 --- !u!1 &1083532658
 GameObject:
   m_ObjectHideFlags: 0

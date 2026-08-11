@@ -1,10 +1,13 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class BackToMenu : MonoBehaviour
 {
-    public void GoToMenu()
+    public GameObject creditsPanel;
+    public GameObject menuPanel;
+
+    public void TornaAlMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        creditsPanel.SetActive(false);
+        menuPanel.SetActive(true);
     }
 }
